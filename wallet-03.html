@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="w-03.css" />
+</head>
+
+<body>
+    <div class="mobile-frame">
+        <header class="header">
+            <button class="btn-icon" aria-label="Back">
+                <img src="assets/wallet-ha/arrow-Left.svg" alt="Back" width="20" height="20" />
+            </button>
+            <h1 class="header-title">Confirm Transaction</h1>
+            <div class="header-placeholder"></div>
+        </header>
+
+        <main class="content">
+            <section class="tx-summary-panel">
+                <div class="swap-pair-box">
+                    <div class="swap-token-col">
+                        <img src="assets/wallet-ha/matic-token-icon 2.svg" alt="ETH" class="token-badge-icon" width="40"
+                            height="40" />
+                        <span class="token-trade-amount">0.0031 ETH</span>
+                    </div>
+
+                    <div class="swap-transfer-badge">
+                        <img src="assets/wallet-ha/Vertical_switch_alt.svg" alt="Swap" width="20" height="20" />
+                    </div>
+
+                    <div class="swap-token-col">
+                        <img src="assets/wallet-ha/matic-token-icon 3.svg" alt="DAI" class="token-badge-icon" width="40"
+                            height="40" />
+                        <span class="token-trade-amount">1987.23 DAI</span>
+                    </div>
+                </div>
+
+                <div class="tx-attribute-list">
+                    <div class="tx-attribute-row">
+                        <span class="attribute-label">Rate</span>
+                        <span class="attribute-val">1 ETH ~ 2443 DAI</span>
+                    </div>
+
+                    <div class="tx-attribute-row">
+                        <span class="attribute-label">Fee</span>
+                        <span class="attribute-val">0.0031 ETH</span>
+                    </div>
+
+                    <div class="tx-attribute-row">
+                        <span class="attribute-label">Price impact</span>
+                        <span class="attribute-val">&lt; 0.01%</span>
+                    </div>
+
+                    <div class="tx-attribute-row">
+                        <span class="attribute-label">Minimum received</span>
+                        <span class="attribute-val">0.0031 ETH</span>
+                    </div>
+
+                    <div class="tx-attribute-row tx-cost-row">
+                        <span class="attribute-label cost-label">Transaction cost</span>
+                        <div class="cost-summary-group">
+                            <div class="cost-pricing-group">
+                                <span class="cost-fiat-val">-21$</span>
+                                <span class="cost-crypto-val">0.0041</span>
+                            </div>
+                            <span class="refund-tag">7% Refund</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button class="btn-confirm-swap">Confirm Swap</button>
+        </main>
+
+        <!-- bottom nav -->
+        <nav class="bottom-nav">
+            <button class="nav-item">
+                <img src="assets/wallet-ha/Wallet.svg" alt="Wallet" width="22" height="22" />
+            </button>
+            <button class="nav-item active">
+                <img src="assets/wallet-ha/Regroup.svg" alt="Exchange" width="22" height="22" />
+            </button>
+            <button class="nav-item">
+                <img src="assets/wallet-ha/Carbs.svg" alt="Earn" width="22" height="22" />
+            </button>
+            <button class="nav-item">
+                <img src="assets/wallet-ha/world_2_light.svg" alt="Browser" width="22" height="22" />
+            </button>
+            <button class="nav-item">
+                <img src="assets/wallet-ha/Setting_alt_line_duotone_line.svg" alt="Settings" width="22" height="22" />
+            </button>
+        </nav>
+    </div>
+</body>
+
+</html>

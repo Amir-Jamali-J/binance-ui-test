@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Token - Bottom Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bs.css">
+</head>
+
+<body>
+
+    <div class="mobile-frame">
+
+        <!-- background blur shode -->
+        <div class="background-content">
+            <div class="mock-header">
+                <span class="mock-back">‹</span>
+                <span class="mock-title">Exchange</span>
+            </div>
+            <div class="mock-card">
+                <div class="mock-label">You pay <span>Balance: 0</span></div>
+                <div class="mock-input"></div>
+            </div>
+        </div>
+
+        <!-- overlay -->
+        <div class="backdrop-overlay"></div>
+
+        <!-- bottom sheet -->
+        <div class="bottom-sheet">
+
+            <div class="sheet-handle"></div>
+
+            <h2 class="sheet-title">Select Token</h2>
+
+            <div class="token-list">
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="BTC" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 439.svg" alt="BTC" class="coin-icon">
+                        <span class="coin-name">Bitcoin <span class="coin-symbol">(BTC)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="LTC" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 440.svg" alt="LTC" class="coin-icon">
+                        <span class="coin-name">Litecoin <span class="coin-symbol">(LTC)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="SOL" class="token-radio" checked>
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 441.svg" alt="SOL" class="coin-icon">
+                        <span class="coin-name">Solana <span class="coin-symbol">(SOL)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="DOT" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 442.svg" alt="DOT" class="coin-icon">
+                        <span class="coin-name">Polkadot <span class="coin-symbol">(DOT)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="SOL2" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 441.svg" alt="SOL" class="coin-icon">
+                        <span class="coin-name">Solana <span class="coin-symbol">(SOL)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="DASH" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 443.svg" alt="DASH" class="coin-icon">
+                        <span class="coin-name">Dash <span class="coin-symbol">(DASH)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="ATOM" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 444.svg" alt="ATOM" class="coin-icon">
+                        <span class="coin-name">Cosmos <span class="coin-symbol">(ATOM)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="LTC2" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 440.svg" alt="LTC" class="coin-icon">
+                        <span class="coin-name">Litecoin <span class="coin-symbol">(LTC)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="BTC2" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 439.svg" alt="BTC" class="coin-icon">
+                        <span class="coin-name">Bitcoin <span class="coin-symbol">(BTC)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+                <label class="token-item">
+                    <input type="radio" name="token" value="SOL3" class="token-radio">
+                    <div class="token-info">
+                        <img src="assets/bottom-sheet/image 441.svg" alt="SOL" class="coin-icon">
+                        <span class="coin-name">Solana <span class="coin-symbol">(SOL)</span></span>
+                    </div>
+                    <div class="radio-indicator">
+                        <img src="./assets/bottom-sheet/check.svg" alt="check">
+                    </div>
+                </label>
+
+            </div>
+
+            <div class="sheet-actions">
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-ok">Ok</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- drag va swipe js-->
+    <script>
+        const sheet = document.querySelector('.bottom-sheet');
+        const handle = document.querySelector('.sheet-handle');
+        const title = document.querySelector('.sheet-title');
+        const minHeight = 480;
+        const maxHeight = 680;
+        let isDragging = false;
+        let startY = 0;
+        let startHeight = minHeight;
+        function startDrag(e) {
+            isDragging = true;
+            startY = e.clientY || (e.touches && e.touches[0].clientY);
+            startHeight = sheet.offsetHeight;
+            sheet.style.transition = 'none';
+            document.body.style.userSelect = 'none';
+        }
+
+        function onDrag(e) {
+            if (!isDragging) return;
+            const currentY = e.clientY || (e.touches && e.touches[0].clientY);
+            if (!currentY) return;
+            const deltaY = startY - currentY;
+            let newHeight = startHeight + deltaY;
+            if (newHeight < minHeight) {
+                newHeight = minHeight - (minHeight - newHeight) * 0.2;
+            } else if (newHeight > maxHeight) {
+                newHeight = maxHeight + (newHeight - maxHeight) * 0.2;
+            }
+            sheet.style.height = `${newHeight}px`;
+        }
+        function endDrag() {
+            if (!isDragging) return;
+            isDragging = false;
+            document.body.style.userSelect = '';
+
+            sheet.style.transition = 'height 0.35s cubic-bezier(0.25, 1, 0.5, 1)';
+            const currentHeight = sheet.offsetHeight;
+            const isExpanded = sheet.classList.contains('expanded');
+            if (!isExpanded) {
+                if (currentHeight > minHeight + 50) {
+                    sheet.classList.add('expanded');
+                    sheet.style.height = `${maxHeight}px`;
+                } else {
+                    sheet.style.height = `${minHeight}px`;
+                }
+            } else {
+                if (currentHeight < maxHeight - 50) {
+                    sheet.classList.remove('expanded');
+                    sheet.style.height = `${minHeight}px`;
+                } else {
+                    sheet.style.height = `${maxHeight}px`;
+                }
+            }
+        }
+        [handle, title].forEach(el => {
+            el.addEventListener('mousedown', startDrag);
+            el.addEventListener('touchstart', startDrag, { passive: true });
+        });
+        window.addEventListener('mousemove', onDrag);
+        window.addEventListener('touchmove', onDrag, { passive: true });
+        window.addEventListener('mouseup', endDrag);
+        window.addEventListener('touchend', endDrag);
+    </script>
+
+</body>
+
+</html>
